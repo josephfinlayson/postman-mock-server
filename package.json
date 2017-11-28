@@ -1,0 +1,21 @@
+{
+  "name": "postman-mock-integration-test",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start-mock": "node ./bin/www",
+    "integration-test": "newman -c sample.postman_collection.json"
+  },
+  "dependencies": {
+    "body-parser": "~1.18.2",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "~4.15.5",
+    "jade": "~1.11.0",
+    "lodash": "^4.17.4",
+    "morgan": "~1.9.0",
+    "newman": "^3.8.3",
+    "postman-collection": "^3.0.3",
+    "serve-favicon": "~2.4.5"
+  }
+}
